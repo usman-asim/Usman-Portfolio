@@ -74,10 +74,10 @@ const Contact = () => {
 
     emailjs
       .send(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
+        "service_0ehd5ck",
+        "template_5frz2xn",
         templateParams,
-        process.env.REACT_APP_PUBLIC_KEY,
+        "i7wZkoyFi0Oj3R1zH",
       )
       .then((response) => {
         toast.success("Form submitted successfully!");
