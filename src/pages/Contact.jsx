@@ -63,24 +63,26 @@ const Contact = () => {
       return;
     }
 
-    // Send email using EmailJS
+    // Prepare the email template params to match the email template
     const templateParams = {
-      from_name: first + " " + last,
-      from_email: email,
-      phone_number: phone,
-      message: text,
-      category: type,
+      fullName: first + " " + last, // Full name
+      emailAddress: email, // Email address
+      phoneNumber: phone, // Phone number
+      category: type, // Category (e.g., Web Development)
+      inquiry: text, // Message from the user
     };
 
+    // Send email using EmailJS
     emailjs
       .send(
-        "service_0ehd5ck",
-        "template_5frz2xn",
-        templateParams,
-        "i7wZkoyFi0Oj3R1zH",
+        "service_0ehd5ck", // Your service ID
+        "template_5frz2xn", // Your template ID
+        templateParams, // Template parameters
+        "i7wZkoyFi0Oj3R1zH", // Your user ID
       )
       .then((response) => {
         toast.success("Form submitted successfully!");
+        // Clear the form fields after submission
         setfirst("");
         setlast("");
         setemail("");
@@ -92,7 +94,6 @@ const Contact = () => {
         toast.error("Error in sending email: " + error.text);
       });
   };
-
   return (
     <div className="w-full md:flex-row flex-col flex md:p-10 p-5 mt-28 md:mt-4">
       <div className="text-white md:hidden ml-1 flex flex-col gap-5 justify-center ]">
