@@ -42,14 +42,19 @@ useGSAP(()=>{
         </div>
         <div className=" first md:w-[70%] w-[90%]  text-center bg-[#1e122a] md:p-9 p-6 mt-7 rounded-[13px]  hover:text-white hover:bg-gradient-to-r from-[#824DEF] to-[#2E175B]">
           <h2 className="text-justify font-light">
-            Hi, my name is Usman Asim, and I am a passionate front-end web
-            developer driven by a desire to create visually compelling and
-            functional web experiences. With a rich toolkit of modern
-            technologies and design software at my disposal, I bring a unique
-            blend of \creativity and technical acumen to every project I
-            undertake. My journey in web development spans over 1 one year
-            ,during which I have meticulously crafted each project with
-            precision and a 100% success rate.
+            A highly motivated Associate Software Engineer with 1+ year of
+            experience in web development. Proficient in JavaScript, React.js,
+            TypeScript, Node.js, Express.js, and MongoDB, with expertise in
+            building scalable web applications. Skilled in both front-end
+            (HTML5, CSS3, Tailwind, Bootstrap) and back-end (Node.js,
+            Express.js, REST APIs) development. Experienced with state
+            management using Redux and Redux Toolkit, database management with
+            SQL/NoSQL (PostgreSQL, MongoDB, NeonDB), and containerization with
+            Docker. Passionate about continuous learning and applying new
+            technologies to solve complex problems. Adept at collaborating with
+            cross-functional teams to deliver high-quality solutions. Committed
+            to writing clean, maintainable code and optimizing applications for
+            performance.
           </h2>
         </div>
       </div>
@@ -64,7 +69,10 @@ useGSAP(()=>{
           My Education
         </h1>
 
-        <div ref={container} className="container grid md:grid-cols-3 mt-10 grid-cols-1 gap-3 md:gap-4 mb-10 p-3">
+        <div
+          ref={container}
+          className="container grid md:grid-cols-3 mt-10 grid-cols-1 gap-3 md:gap-4 mb-10 p-3"
+        >
           <div className="bg-[#1e122a] p-8  rounded-[13px] hover:text-white hover:bg-gradient-to-r from-[#824DEF] to-[#2E175B]">
             <h1 className="text-xl font-bold">2023-2025</h1>
             <p className="text-[#9364f1] font-extrabold text-2xl  hover:text-white">
