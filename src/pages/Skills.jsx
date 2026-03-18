@@ -53,7 +53,7 @@ const Skills = () => {
           <div className="gap-3  flex flex-col items-center justify-center">
             <div className="skill rounded-3xl sm:w-40 sm:h-40 w-40 p-9 h-40  gap-5 flex flex-col items-center justify-center">
               <img className="w-20 h-20" src="jslogo.svg" alt="" />
-              <h2 className="text-xl font-bold text-[#747779]">89%</h2>
+              <h2 className="text-xl font-bold text-[#747779]">99%</h2>
             </div>
             <h1 className="text-[#8750E9] text-xl ">Javascript</h1>
           </div>
@@ -61,14 +61,14 @@ const Skills = () => {
           <div className="gap-3  flex flex-col items-center justify-center">
             <div className=" skill rounded-3xl  sm:w-40 sm:h-40 w-40 p-9  h-40 gap-5 flex flex-col items-center justify-center">
               <img className="w-20 h-20" src="tailwind.svg" alt="" />
-              <h2 className="text-xl font-bold text-[#747779]">88%</h2>
+              <h2 className="text-xl font-bold text-[#747779]">98%</h2>
             </div>
             <h1 className="text-[#8750E9] text-xl ">Tailwind css</h1>
           </div>
           <div className="gap-3  flex flex-col items-center justify-center">
             <div className=" skill rounded-3xl  sm:w-40 sm:h-40  w-40 p-9  h-40 gap-5 flex flex-col items-center justify-center">
               <img className="w-20 h-20" src="react.svg" alt="" />
-              <h2 className="text-xl font-bold text-[#747779]">86%</h2>
+              <h2 className="text-xl font-bold text-[#747779]">99%</h2>
             </div>
             <h1 className="text-[#8750E9] text-xl ">React js</h1>
           </div>
@@ -76,7 +76,7 @@ const Skills = () => {
           <div className="gap-3  flex flex-col items-center justify-center">
             <div className="skill rounded-3xl sm:w-40 sm:h-40  w-40 p-9  h-40 gap-5 flex flex-col items-center justify-center">
               <img className="w-20 h-20" src="expres.svg" alt="" />
-              <h2 className="text-xl font-bold text-[#747779]">79%</h2>
+              <h2 className="text-xl font-bold text-[#747779]">98%</h2>
             </div>
             <h1 className="text-[#8750E9] text-xl ">Express js</h1>
           </div>
@@ -84,21 +84,21 @@ const Skills = () => {
           <div className="gap-3  flex flex-col items-center justify-center">
             <div className=" skill rounded-3xl  sm:w-40 sm:h-40  w-40 p-9  h-40 gap-5 flex flex-col items-center justify-center">
               <img className="w-20 h-20" src="nodelogo.svg" alt="" />
-              <h2 className="text-xl font-bold text-[#747779]">85%</h2>
+              <h2 className="text-xl font-bold text-[#747779]">95%</h2>
             </div>
             <h1 className="text-[#8750E9] text-xl ">Node js</h1>
           </div>
           <div className="gap-3  flex flex-col items-center justify-center">
             <div className=" skill rounded-3xl sm:w-40 sm:h-40  w-40 p-9  h-40 gap-5 flex flex-col items-center justify-center">
               <img className="w-20 h-20" src="nextlogo.svg" alt="" />
-              <h2 className="text-xl font-bold text-[#747779]">58%</h2>
+              <h2 className="text-xl font-bold text-[#747779]">96%</h2>
             </div>
             <h1 className="text-[#8750E9] text-xl ">Next js</h1>
           </div>
           <div className="gap-3  flex flex-col items-center justify-center">
             <div className="skill rounded-3xl  sm:w-40 sm:h-40  w-40 p-9  h-40 gap-5 flex flex-col items-center justify-center">
               <img className="w-20 h-20" src="mongodblogo.svg" alt="" />
-              <h2 className="text-xl font-bold text-[#747779]">78%</h2>
+              <h2 className="text-xl font-bold text-[#747779]">98%</h2>
             </div>
             <h1 className="text-[#8750E9] text-xl ">Mongo db</h1>
           </div>
