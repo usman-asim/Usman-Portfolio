@@ -37,7 +37,6 @@ const Contact = () => {
   const submitform = (e) => {
     e.preventDefault();
 
-    // Check if each field is empty and focus on the first empty field
     if (!first) {
       firstref.current.focus();
       return;
@@ -63,7 +62,6 @@ const Contact = () => {
       return;
     }
 
-    // Prepare the email template params to match the email template
     const templateParams = {
       fullName: first + " " + last, // Full name
       emailAddress: email, // Email address
@@ -82,7 +80,6 @@ const Contact = () => {
       )
       .then((response) => {
         toast.success("Form submitted successfully!");
-        // Clear the form fields after submission
         setfirst("");
         setlast("");
         setemail("");
